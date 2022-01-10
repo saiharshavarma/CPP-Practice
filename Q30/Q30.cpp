@@ -20,7 +20,7 @@ int main()
     for (int rowCounter = 0; rowCounter < rows; rowCounter++)
     {
         for (int columnCounter = 0; columnCounter < columns; columnCounter++)
-            cout << arr[rowCounter][columnCounter] << "\t";
+            cout << arr[rowCounter][columnCounter] << " ";
         cout << endl;
     }
 

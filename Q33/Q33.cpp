@@ -22,7 +22,7 @@ int main()
     cout << endl
          << "The second split array is: " << endl;
     for (int counter = 0; counter < n / 2; counter++)
-        cout << rarr[counter] << "\t";
+        cout << rarr[counter] << " ";
     delete[] rarr;
     delete[] larr;
     delete[] arr;
